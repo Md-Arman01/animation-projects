@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket</title>
+    <style>
+        .fuild{
+            border: 2px solid saddlebrown;
+        }
+        .bat{
+            width: 500px;
+            margin-left: 1200px;
+            transition: transform 0.1s ;
+        }
+        .ball{
+            width: 100px;
+            position: relative;
+            left: 892px;
+            transition: translate 1s 0.2s;
+        
+        }
+        
+        .fuild:hover .bat{
+            transform: rotate(65deg);
+            transform-origin: top left;
+        }
+        .fuild:hover .ball{
+            translate: -900px -350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fuild">
+        <img class="bat" src="image/pngfind.com-baseball-bat-png-557196.png" alt="">
+        <div> <img class="ball" src="image/pngwing.com.png" alt=""></div>
+    </div>
+</body>
+</html>

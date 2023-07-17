@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        .container {
+            height: 200px;
+            width: 200px;
+            /* border: 2px solid teal; */
+            overflow: auto;
+            overflow-x: hidden;
+            text-overflow: ellipsis;
+
+
+        }
+
+        .class {
+            width: 250px;
+            border: 2px solid salmon;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>hello world</h3>
+        <p title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque praesentium consequatur
+        laboriosam
+        voluptatum nulla magnam dolor placeat architecto alias laborum cum, consequuntur aut ratione deleniti
+        repudiandae? Maxime unde voluptatum accusamus mollitia modi odio asperiores assumenda illum dolorum?
+        Distinctio aut, praesentium architecto quas beatae magnam? Quis tempore at architecto nisi magnam est sequi
+        optio necessitatibus nam aperiam ipsum, voluptatum numquam neque ut tenetur temporibus fugit molestiae iste
+        labore? Autem ipsum sunt suscipit? Nemo totam impedit odio quae temporibus facilis id laboriosam ducimus
+        ullam consectetur tempora aspernatur molestias in assumenda, alias quia amet. Accusamus accusantium quia
+        corporis sint illo commodi at.">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque
+            praesentium consequatur
+            laboriosam
+            voluptatum nulla magnam dolor placeat architecto alias laborum cum, consequuntur aut ratione deleniti
+            repudiandae? Maxime unde voluptatum accusamus mollitia modi odio asperiores assumenda illum dolorum?
+            Distinctio aut, praesentium architecto quas beatae magnam? Quis tempore at architecto nisi magnam est sequi
+            optio necessitatibus nam aperiam ipsum, voluptatum numquam neque ut tenetur temporibus fugit molestiae iste
+            labore? Autem ipsum sunt suscipit? Nemo totam impedit odio quae temporibus facilis id laboriosam ducimus
+            ullam consectetur tempora aspernatur molestias in assumenda, alias quia amet. Accusamus accusantium quia
+            corporis sint illo commodi at.</p>
+    </div>
+    <div class="container">
+        <h3>hello world</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque praesentium consequatur laboriosam
+            voluptatum nulla magnam dolor placeat architecto alias laborum cum, consequuntur aut ratione deleniti
+            repudiandae? Maxime unde voluptatum accusamus mollitia modi odio asperiores assumenda illum dolorum?
+            Distinctio aut, praesentium architecto quas beatae magnam? Quis tempore at architecto nisi magnam est sequi
+            optio necessitatibus nam aperiam ipsum, voluptatum numquam neque ut tenetur temporibus fugit molestiae iste
+            labore? Autem ipsum sunt suscipit? Nemo totam impedit odio quae temporibus facilis id laboriosam ducimus
+            ullam consectetur tempora aspernatur molestias in assumenda, alias quia amet. Accusamus accusantium quia
+            corporis sint illo commodi at.</p>
+    </div>
+    <div>
+        <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque praesentium consequatur
+            laboriosam
+            deleniti
+            repudiandae?</p>
+    </div>
+
+</body>
+
+</html>
